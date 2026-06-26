@@ -59,14 +59,9 @@ This module will eventually produce `KB-0007_sensitive_skin.md`, but the artifac
 
 # Current Repository Status
 
-Korhan created the repository and added:
+The repository now contains the main AYNA Brain bootstrap files and approved Barrier & Hydration Foundation artifacts.
 
-```text
-AYNA_OPERATING_MODEL.md
-knowledge_base/skin_biology/KB-0001_skin_barrier.md
-```
-
-The following project memory files have now been created for repository continuity:
+Core project files:
 
 ```text
 README.md
@@ -78,9 +73,10 @@ AYNA_SESSION_BOOTSTRAP_PROMPT.md
 AYNA_SESSION_HANDOFF_2026-06-26.md
 ```
 
-Approved Barrier & Hydration Foundation files should also be added:
+Approved Barrier & Hydration Foundation files:
 
 ```text
+knowledge_base/skin_biology/KB-0001_skin_barrier.md
 knowledge_base/skin_biology/KB-0002_tewl.md
 knowledge_base/ingredient_classes/KB-0003_humectants.md
 knowledge_base/ingredient_classes/KB-0004_emollients.md
@@ -321,6 +317,46 @@ current_state:
 medical_boundary:
   rosacea_suspected: possible
 ```
+
+---
+
+## 9. Draft Clarification Block Started: New Product Reaction
+
+Mariya began building AYNA's first draft Clarification Engine block:
+
+```text
+drafts/clarification_blocks/CB-0001_new_product_reaction.md
+```
+
+Status:
+
+```text
+Draft, not Approved.
+```
+
+Purpose:
+
+To clarify possible irritation, allergy-like reaction, barrier damage, product risk, routine context, and safety concerns when a user reports a reaction to a new or recently changed product.
+
+Important reasoning pattern added:
+
+```text
+Emergency first. Cosmetic analysis after.
+```
+
+Specifically, if the user reports eyelid, lip, tongue, throat, or face swelling, AYNA should first check emergency signs before analyzing the product.
+
+First safety questions:
+
+```text
+Is there any difficulty breathing?
+Is there swelling of the lips, tongue, throat, or whole face?
+Is there trouble swallowing, wheezing, or tight feeling in the throat?
+Is the swelling rapidly getting worse?
+Is there eye pain, vision change, or severe eye irritation?
+```
+
+This draft should remain Draft until more cases are reviewed and the Sensitive Skin & Skin Reactivity module is further consolidated.
 
 ---
 
